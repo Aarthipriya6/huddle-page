@@ -1,0 +1,113 @@
+@media(max-width:900px){
+
+  .hero{
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .container-1,
+  .container-3{
+    flex-direction: column-reverse;
+  }
+
+.section-end{
+  padding: 40px 80px;
+}
+.footer-logo{
+  width: 150px;
+  margin-top: 50px;
+}
+footer{
+  padding-left: 30px;
+  padding-right: 0px;
+}
+.footer-section{
+  flex-direction: column;
+}
+li{
+padding-right: 0px;
+}
+.section-1{
+  width: 90%;
+  margin-bottom: 40px;
+}
+.section-2,
+.section-3,
+.social{
+  margin-left: 0px;
+}
+a{
+  margin-left: 0px;
+}
+.social{
+  display: flex;
+  justify-content: center;
+  margin-left: 0px;
+  margin: 30px 0px 0px;
+  margin-bottom: -20px;
+}
+.copy{
+  text-align: center;
+}
+}
+
+@media(max-width:500px){
+  .header{
+    padding: 20px 5px;
+  }
+.logo{
+  height: 15px;
+}
+.main-nav{
+padding: 10px 25px;
+border-radius:30%;
+font-size: 16px;
+}
+.heading-primary{
+  font-size: 35px;
+}
+.hero-discription{
+  font-size: 22px;
+}
+.step-topic{
+  font-size: 25px;
+}
+.description{
+  font-size: 16px;
+}
+.section-end{
+
+  padding: 30px 10px;
+  left: 15%;
+}
+
+.qn{
+  font-size: 18px;
+}
+/*.btnn:link,.btnn:visited{
+  font-size: 14px;
+  padding: 8px 16px;
+margin-left: 80px;
+} */
+.footer-logo{
+  width:125px ;
+  margin-top: 25px;
+
+}
+
+.section-1{
+  max-width: 100%;
+}
+.section-2,
+.section-3{
+  width: 100%;
+}
+footer{
+  padding-top: 30px;
+}
+}
